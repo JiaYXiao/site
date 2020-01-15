@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LaunchComponent implements OnInit {
 
+  isMenuActive = false;
   constructor() { }
 
   ngOnInit() {
   }
 
+  toggleMenu() {
+    this.isMenuActive = !this.isMenuActive;
+  }
 }
