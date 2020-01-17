@@ -16,3 +16,8 @@ import {
     style({transform: 'translateX(0)', opacity: 1}),
     animate('500ms', style({transform: 'translateX(100%)', opacity: 0}))
   ]);
+
+  export const animation3 = animation ([
+    style({transform: 'translateX(100%)', opacity: 0}),
+    animate('500ms', style({transform: 'translateX(0)', opacity: 1}))
+  ]);
