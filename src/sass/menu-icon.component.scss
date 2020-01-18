@@ -1,3 +1,8 @@
 $hamburger-layer-color         : white;
 $hamburger-active-layer-color  : $hamburger-layer-color;
 @import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+
+ .header{
+    position: fixed;
+    z-index:999;
+ }

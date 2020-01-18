@@ -1,4 +1,6 @@
-  <button class="hamburger hamburger--minus" (click) = "toggleMenu()" [ngClass]="{'is-active': isMenuActive}" type="button">
+<div class="header">
+  <button class="hamburger hamburger--minus" (click)="toggleMenu()" [ngClass]="{'is-active': isMenuActive}"
+    type="button">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
     </span>
@@ -6,4 +8,7 @@
 
   <!-- <p> assets: <a target="_blank" href="https://github.com/jonsuh/hamburgers">borgar menu</a></p> -->
 
-  <div *ngIf="isMenuActive" [@enterAnimation]>  <app-menu></app-menu> </div>
+  <div *ngIf="isMenuActive" [@enterAnimation]>
+    <app-menu></app-menu>
+  </div>
+</div>

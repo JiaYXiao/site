@@ -1,3 +1,4 @@
-a {
-    color: aliceblue
+@import '../../sass/_variables.scss';
+p, h1 {
+    margin-left: $default-margin;
 }

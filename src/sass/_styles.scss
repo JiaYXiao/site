@@ -6,11 +6,15 @@ html, body {
   height: 100%;
   background-color: #122295;
   color: white;
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: pink;
 }
 
 // breakpoints: 
