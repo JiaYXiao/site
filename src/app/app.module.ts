@@ -10,6 +10,7 @@ import { WorkExpComponent } from './work-exp/work-exp.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { LaunchpageComponent } from './launchpage/launchpage.component';
 import { TestComponentComponent } from './test-component/test-component.component';
+import { CoreComponent } from './core/core.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TestComponentComponent } from './test-component/test-component.componen
     WorkExpComponent,
     AboutMeComponent,
     LaunchpageComponent,
-    TestComponentComponent
+    TestComponentComponent,
+    CoreComponent
   ],
   imports: [
     BrowserModule,

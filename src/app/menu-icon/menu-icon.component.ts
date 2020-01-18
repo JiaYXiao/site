@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { useAnimation, transition, trigger, style, animate } from '@angular/animations';
 import { animation1, animation2, animation3 } from '../animations';
 
@@ -28,12 +28,16 @@ import { animation1, animation2, animation3 } from '../animations';
 export class MenuIconComponent implements OnInit {
 
   isMenuActive = false;
+  // @Input() isMenuActive : boolean;
   constructor() { }
 
   ngOnInit() {
+    // this.isMenuActive = false;
   }
 
   toggleMenu() {
+    
+    alert (this.isMenuActive);
     this.isMenuActive = !this.isMenuActive;
   }
 }
