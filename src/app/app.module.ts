@@ -4,14 +4,22 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
-import { LaunchComponent } from './launch/launch.component';
+import { MenuIconComponent } from './menu-icon/menu-icon.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WorkExpComponent } from './work-exp/work-exp.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { LaunchpageComponent } from './launchpage/launchpage.component';
+import { TestComponentComponent } from './test-component/test-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    LaunchComponent
+    MenuIconComponent,
+    WorkExpComponent,
+    AboutMeComponent,
+    LaunchpageComponent,
+    TestComponentComponent
   ],
   imports: [
     BrowserModule,

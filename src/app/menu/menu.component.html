@@ -1,6 +1,15 @@
-<div >
+<!-- <div >
     <p>home</p>
     <p>Jobs / Projects</p>
     <p>resume</p>
     <p>about me</p>
-</div >
+</div > -->
+
+
+<div class="links">
+    <ul>
+      <li *ngFor="let link of ids">
+        <a [routerLink]='"."' [fragment]="link">{{link}}</a>
+      </li>
+    </ul>
+  </div>
