@@ -1,5 +1,38 @@
 # Website
+A personal website/portfolio showcasing experiences and achievements :)
 
+This may or may not be a temporary website until a better ui design is created
+
+## Components layout
+### About-me:
+
+Body for "about me" page
+
+### Core:
+
+```<app-root>``` will only contain ```<app-core>```; all other custom components will be declared under this component. 
+
+### Launchpage:
+
+Body for Landing page
+
+### Menu:
+
+Selection options upon menu opening 
+
+### Menu-icon:
+
+Component for displaying the hamburger menu icon
+
+### Test-component:
+
+Isolated component for the purpose of testing code
+
+### Work-exp:
+
+Body for "work experience" page 
+
+# Default Angular ReadMe
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
 ## Development server
